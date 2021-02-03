@@ -16,6 +16,15 @@ body {
   display: none;
 }
 
+.field__group.error .error__text,
+.field__group.error .error__icon {
+  display: block;
+}
+
+.field__group.error input {
+  border: 2px solid #ff7a7a;
+}
+
 #intro {
   min-height: 100vh;
   width: 100%;
@@ -143,6 +152,7 @@ body {
   margin-bottom: 0;
   -webkit-transition: 200ms ease-in-out;
   transition: 200ms ease-in-out;
+  cursor: pointer;
 }
 
 .right__col button:hover {
